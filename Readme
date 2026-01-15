@@ -1,0 +1,17 @@
+# Metagenomic analysis scripts
+
+This repository contains scripts used for downstream analysis and figure generation
+in the manuscript:
+
+"Gut Microbiota Dysbiosis and Immune Correlations in Pediatric Mycoplasma Pneumoniae Pneumonia"
+
+## Contents
+- alpha_diversity.R: Alpha diversity analysis (Chao1, Shannon)
+- beta_diversity.R: Beta diversity analysis (Bray–Curtis, PCoA)
+- lefse_prepare.R: Preparation of input files for LEfSe
+- correlation_heatmap.R: Spearman correlation analysis and heatmap visualization
+- stats_basic.R: Statistical testing and data preprocessing
+
+## Notes
+- Raw metagenomic sequencing data are deposited in NCBI SRA.
+- Scripts are provided for reproducibility of analyses reported in the Results section.
